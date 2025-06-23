@@ -354,10 +354,41 @@ footer a {
     padding-right: 70px;
   }
 
+  aside {
+  }
+
   aside div {
     display: inline-block;
     width: 33%;
     margin: 0;
     border: 0;
+  }
+}
+
+@media print {
+  aside {
+    display: none;
+  }
+
+  iframe {
+    display: none;
+  }
+
+  section {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  header {
+    display: none;
+  }
+
+  #firstImg {
+    border: 4px solid #027d99;
+    padding: 3px;
+    outline: 4px solid purple;
   }
 }
